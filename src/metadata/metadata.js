@@ -3,7 +3,7 @@ module.exports = {
   title: 'Software Engineer',
   facts: {
     Residence: '<a href="https://goo.gl/maps/EaLgj8huCGqNLcYm9"><i class="fa fa-home fact-icon"></i>Andalucía, Spain</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/alejandro-guerrero-d%C3%ADaz-9a3234162/"><i class="fab fa-linkedin fact-icon"></i> Alejandro Guerrero</a>',
+   // LinkedIn: '<a href="https://www.linkedin.com/in/alejandro-guerrero-d%C3%ADaz-9a3234162/"><i class="fab fa-linkedin fact-icon"></i> Alejandro Guerrero</a>',
     GitHub: '<a href="https://github.com/alexgue"><i class="fab fa-github fact-icon"></i> AlexGue</a>',
     Email: '<a href="mailto:aleguedia@gmail.com"><i class="fas fa-envelope-square fact-icon"></i> aleguedia@gmail.com</a>',
   },
@@ -24,7 +24,7 @@ module.exports = {
       title: 'Salesforce Software developer',
       written: 'VASSIT UK - London  📆 August 2019 - April 2020',
       badges: ['Salesforce', 'CRM', 'NodeJS'],
-      contents: `Developer in the Salesforce environment with APEX code in a project of payments by Application (PagoFX). Development also of a project on Node.JS and Mongo as an internal tool for the practice of technology certification exams.`
+      contents: `Developer in the Salesforce environment with APEX code in a project of payments by Application (PagoFX). Development also of a project with Node.JS and Mongo as an internal tool for the practice of technology certification exams.`
     },
     {
       title: 'Game Extensions Developer',
