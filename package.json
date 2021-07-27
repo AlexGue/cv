@@ -3,9 +3,9 @@
   "description": "The Curriculum Vitae Template",
   "scripts": {
     "build": "node src/build.js",
-    "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
+    "watch": "chokidar \"**\/*\" -i \"dist\/**\/*\" -c \"npm run build\"",
     "prestart": "npm run build",
-    "start": "npm run watch & live-server dist",
+    "start": "live-server dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

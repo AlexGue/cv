@@ -1,68 +1,52 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Alejandro Guerrero',
+  title: 'Software Engineer',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    Residence: '<a href="https://goo.gl/maps/EaLgj8huCGqNLcYm9"><i class="fa fa-home fact-icon"></i>Andalucía, Spain</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/alejandro-guerrero-d%C3%ADaz-9a3234162/"><i class="fab fa-linkedin fact-icon"></i> Alejandro Guerrero</a>',
+    GitHub: '<a href="https://github.com/alexgue"><i class="fab fa-github fact-icon"></i> AlexGue</a>',
+    Email: '<a href="mailto:aleguedia@gmail.com"><i class="fas fa-envelope-square fact-icon"></i> aleguedia@gmail.com</a>',
   },
-  skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
-  ],
+  skills: {
+    "Coding Languages": [['NodeJS', '⭐⭐⭐⭐⭐'], ['Javascript', '⭐⭐⭐⭐⭐'], ['Java', '⭐⭐⭐⭐'], ['React', '⭐⭐⭐'], ['Python', '⭐⭐']],
+    Infrastructure: [['AWS CDK', '⭐⭐⭐⭐'], ['Docker', '⭐⭐⭐⭐⭐'], ['Kubernetes', '⭐⭐'], ['AWS', '⭐⭐⭐']],
+    Databases: [['MongoDB', '⭐⭐⭐⭐'], ['MySQL', '⭐⭐⭐'], ['Redis', '⭐⭐'], ],
+    Lenguages: [['Spanish', '⭐⭐⭐⭐⭐'], ['','Native Speaker'], ['English', '⭐⭐⭐'], ['B2 | ISE II','Trinity Collegue']],
+  },
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Research technical engineer',
+      written: 'ISA Group - University of Seville.  📆 February 2018 - August 2019 / April 2020 - Current',
+      badges: ['NodeJS', 'Docker', 'AWS', 'Rest APIs', 'Microservices', 'MongoDB'],
+      contents: `Technical Engineer in the Applied Software Engineering Research Group ( www.isa.us.es ). Development of web applications with Microservices Architecture, based on Restful API. Microservices refactoring and reengineering of automated system deployment.`
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Salesforce Software developer',
+      written: 'VASSIT UK - London  📆 August 2019 - April 2020',
+      badges: ['Salesforce', 'CRM', 'NodeJS'],
+      contents: `Developer in the Salesforce environment with APEX code in a project of payments by Application (PagoFX). Development also of a project on Node.JS and Mongo as an internal tool for the practice of technology certification exams.`
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      title: 'Game Extensions Developer',
+      written: 'Minecub - Jerez, Spain  📆 June 2016 - February 2018',
+      badges: ['Java', 'Server Management', 'nginx'],
+      contents: `Development of Java extensions for multiplayer servers and management of multiple dedicated machines intended for player load distribution.`
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+      header: 'Master in Software Engineering: Cloud, Data and IT Management - University of Seville',
+     // skills: ['theater', 'play'],
+      contents: `Master's Degree focused on the Cloud branch, completed with several Honors. Master's thesis called "Framework for massive tasks executions based on the FaaS paradigm", dedicated to the development of a Framework capable of orchestrating
+      distributed workloads in AWS Lambda, with the ability to simulate multiple users for the use of
+      multiple users for Testing, Scraping or Pentesting uses, ended with a grade of 10.
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      header: 'Degree in Software Engineering - University of Seville',
+     // skills: ['poetry', 'erotic'],
+      contents: `Graduate in Computer Software Engineering. Finished with several honors and specialized with subjects such as Soft Computing Intelligent Access to Information, and Artificial Intelligence.
+       Final thesis on a tool to control and monitor microservices architectures, ended with a grade of 10.`
     }
   ]
 };
