@@ -10,7 +10,7 @@ module.exports = {
   skills: {
     "Coding Languages": [['NodeJS', '⭐⭐⭐⭐⭐'], ['Javascript', '⭐⭐⭐⭐⭐'], ['Java', '⭐⭐⭐⭐'], ['React', '⭐⭐⭐'], ['Python', '⭐⭐']],
     Infrastructure: [['AWS CDK', '⭐⭐⭐⭐'], ['Docker', '⭐⭐⭐⭐⭐'], ['Kubernetes', '⭐⭐'], ['AWS', '⭐⭐⭐']],
-    Databases: [['MongoDB', '⭐⭐⭐⭐'], ['MySQL', '⭐⭐⭐'], ['Redis', '⭐⭐'], ],
+    Databases: [['MongoDB', '⭐⭐⭐⭐'], ['MySQL', '⭐⭐⭐'], ['Redis', '⭐⭐'], ['InfluxDB', '⭐⭐⭐'] ],
     Lenguages: [['Spanish', '⭐⭐⭐⭐⭐'], ['','Native Speaker'], ['English', '⭐⭐⭐'], ['B2 | ISE II','Trinity Collegue']],
   },
   plays: [
