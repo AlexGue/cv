@@ -43,7 +43,7 @@ buildPdf = async function (inputFile, outputFile) {
     margin: {
       top: '1.5cm',
       right: '2.54cm',
-      bottom: '1.5cm',
+      bottom: '0.5cm',
       left: '2.54cm',
     },
   });
