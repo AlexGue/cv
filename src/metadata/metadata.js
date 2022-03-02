@@ -15,8 +15,14 @@ module.exports = {
   },
   plays: [
     {
-      title: 'Research technical engineer',
-      written: 'ISA Group - University of Seville.  📆 February 2018 - August 2019 / April 2020 - Current',
+      title: 'Backend Developer',
+      written: 'Gamestry  📆 September 2021 - Current',
+      badges: ['NodeJS', 'Docker', 'Google Cloud', 'MongoDB'],
+      contents: `Mid Backend Developer in Gamestry startup. Development of new monetization features, migration from Heroku to Google App Engine and deploy automatization.`
+    },
+    {
+      title: 'Backend Developer & Research technical engineer',
+      written: 'ISA Group - University of Seville.  📆 February 2018 - August 2019 / April 2020 - September 2021',
       badges: ['NodeJS', 'Docker', 'AWS', 'Rest APIs', 'Microservices', 'MongoDB'],
       contents: `Technical Engineer in the Applied Software Engineering Research Group ( www.isa.us.es ). Development of web applications with Microservices Architecture, based on Restful API. Microservices refactoring and reengineering of automated system deployment.`
     },
@@ -27,7 +33,7 @@ module.exports = {
       contents: `Developer in the Salesforce environment with APEX code in a project of payments by Application (PagoFX). Development also of a project with Node.JS and Mongo as an internal tool for the practice of technology certification exams.`
     },
     {
-      title: 'Game Extensions Developer',
+      title: 'Game Extensions Developer - Java Developer',
       written: 'Minecub - Jerez, Spain  📆 June 2016 - February 2018',
       badges: ['Java', 'Server Management', 'nginx'],
       contents: `Development of Java extensions for multiplayer servers and management of multiple dedicated machines intended for player load distribution.`
