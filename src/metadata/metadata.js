@@ -17,8 +17,8 @@ module.exports = {
     {
       title: 'Backend Developer',
       written: 'Gamestry  📆 September 2021 - Current',
-      badges: ['NodeJS', 'Docker', 'Google Cloud', 'MongoDB'],
-      contents: `Mid Backend Developer in Gamestry startup. Development of new monetization features, migration from Heroku to Google App Engine and deploy automatization.`
+      badges: ['NodeJS', 'Typescrypt', 'Docker', 'Google Cloud', 'MongoDB'],
+      contents: `Mid Backend Developer in Gamestry startup. Using NodeJS together with Typescript. Development of new monetization features, migration from Heroku to Google App Engine and deploy automatization.`
     },
     {
       title: 'Backend Developer & Research technical engineer',
