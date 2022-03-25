@@ -5,7 +5,7 @@ module.exports = {
     Residence: '<a href="https://goo.gl/maps/EaLgj8huCGqNLcYm9"><i class="fa fa-home fact-icon"></i>Andalucía, Spain</a>',
    // LinkedIn: '<a href="https://www.linkedin.com/in/alejandro-guerrero-d%C3%ADaz-9a3234162/"><i class="fab fa-linkedin fact-icon"></i> Alejandro Guerrero</a>',
     GitHub: '<a href="https://github.com/alexgue"><i class="fab fa-github fact-icon"></i> AlexGue</a>',
-    Email: '<a href="mailto:aleguedia@gmail.com"><i class="fas fa-envelope-square fact-icon"></i> contact@alexgd.dev</a>',
+    Email: '<a href="mailto:aleguedia@gmail.com"><i class="fas fa-envelope-square fact-icon"></i> aleguedia@gmail.com</a>',
   },
   skills: {
     "Coding Languages": [['NodeJS', '⭐⭐⭐⭐⭐'], ['Javascript', '⭐⭐⭐⭐⭐'], ['Java', '⭐⭐⭐⭐'], ['React', '⭐⭐⭐'], ['Python', '⭐⭐']],
