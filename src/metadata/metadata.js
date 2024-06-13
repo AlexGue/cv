@@ -14,9 +14,15 @@ module.exports = {
     Lenguages: [['Spanish', '⭐⭐⭐⭐⭐'], ['','Native Speaker'], ['English', '⭐⭐⭐'], ['B2 | ISE II','Trinity Collegue']],
   },
   plays: [
+{
+      title: 'Tech Lead Backend',
+      written: 'Clikalia  📆 April 2022 - Current',
+      badges: ['NodeJS', 'Typescrypt', 'Docker', 'Google Cloud', 'MongoDB'],
+      contents: `Promoted to Tech Lead in December 2022. Work on the implementation of good practices and migration to Typescript. Leading team coordination to align technology with company purposes.`
+    },
     {
       title: 'Backend Developer',
-      written: 'Gamestry  📆 September 2021 - Current',
+      written: 'Gamestry  📆 September 2021 - April 2022',
       badges: ['NodeJS', 'Typescrypt', 'Docker', 'Google Cloud', 'MongoDB'],
       contents: `Mid Backend Developer in Gamestry startup. Using NodeJS together with Typescript. Development of new monetization features, migration from Heroku to Google App Engine and deploy automatization.`
     },
